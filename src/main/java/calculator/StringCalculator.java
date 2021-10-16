@@ -1,5 +1,10 @@
 package calculator;
 
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 class StringCalculator {
 
   private String delimiter;
